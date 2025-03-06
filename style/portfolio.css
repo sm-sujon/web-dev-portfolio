@@ -85,6 +85,7 @@ nav ul {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
+    margin-top: 130px;
 }
 main{
     max-width: 1140px;
@@ -107,5 +108,23 @@ main{
 .skill{
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
+    box-shadow: 0px 6px 50px 0px rgba(76, 75, 75, 0.06);
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-download-cv{
+    color: #FD6E0A;
+    text-align: center;
 }
